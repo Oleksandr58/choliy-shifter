@@ -1,0 +1,112 @@
+#wrapper {
+	margin-top: 900px;
+	margin: 0 auto;
+	border: 4px double black;
+}
+
+.Smileclass {
+	background: url(smile.jpg);
+}
+
+.Sadsmileclass {
+	background: url(sad_smile.jpg);
+}
+
+.Menu  {
+	cursor: pointer;
+}
+
+strong {
+	color: green;
+	font-size: 22px;
+}
+
+p {
+	margin-top: 0px;
+	font: bold 19px TimesNewRoman;
+	text-align: justify;
+}
+
+.Winning {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.Rules {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 600px;
+	margin: 0 auto;
+	display: none;
+}
+
+.Menu_text {
+	color: inherit;
+	font: bold italic 30px Arial;
+	margin-left: 60px;
+
+}
+
+.Menu {
+	color: black;
+	width: 885px;
+	height: 35px;
+	margin: 0 auto;
+}
+
+.Choliy {
+	float: left;
+	background: white;
+	margin: auto;
+}
+
+.Salute {
+	width: 190px;
+	height: 180px;
+	margin-top: 160px;
+	float: left;
+	background: url("salute.gif") no-repeat;
+}
+
+.Text {
+	width: 580px;
+	height: 80px;
+	color: red;
+	margin: 0 auto;
+	padding-top: 165px;
+	text-align: center;
+	font: bold italic 50px Arial;
+	background: black;
+}
+
+.Text2 {
+	width: 580px;
+	height: 80px;
+	color: red;
+	margin: 0 auto;
+	padding-top: 20px;
+	text-align: center;
+	font: bold italic 50px Arial;
+	background: black;
+}
+
+.End_game {
+	width: 960px;
+	height: 1024px;
+	margin: 0 auto;
+	display: none;
+}
+
+.Change_level div{
+	width: 700px;
+	margin: 0 auto;
+	font:   40px 	Impact;
+	color: #05af10;
+}
+
+.Change_level form{
+	width: 173px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

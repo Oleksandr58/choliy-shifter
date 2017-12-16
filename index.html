@@ -1,0 +1,62 @@
+<!doctype  html>
+<html>
+
+	<head>
+		<title>Game for Choliy</title>
+		<meta charset="UTF-8">
+		<link href="style.css" rel="stylesheet">
+		
+	</head>
+	
+	<body>
+
+		<div id = "header">
+			
+			<div class = "Menu">
+				<span class = "Menu_text" id = "rules">Правила гри</span>
+				<span class = "Menu_text" id = "change_level">Змінити рівень</span>
+				<span class = "Menu_text" id = "reload">Почати спочатку</span>
+			</div>
+			
+			<div class = "Rules">
+				<p>При нажатті на відповідний смайлик змінюються усі смайлики, що знаходяться у тому ж рядку та стовпчику, що 
+				й нажатий смайлик, на протилежні. Якщо був веселий, то стає сумний і навпаки. Приклад:</p>
+				
+				<img src = "rules.jpg">
+				
+				<p><strong>Ціль:</strong> зробити світ позитивнішим - залишити лише смайлики які посміхаються, а позбутися сумних.</p>
+				
+				<div class = "Winning">
+				<img src = "winning.jpg">
+				</div>
+			</div>
+						
+			<div class = "End_game">
+			
+				<div class = "Salute">
+				</div>
+				
+				<div class = "Choliy">
+				
+					<div class = "Text">
+					You're the best!
+					</div>
+					<div class = "Text2">
+					#Перемога
+					</div>
+					
+				</div>
+				
+				<div class = "Salute">
+				</div>
+			</div>
+			
+			<div id = "wrapper">
+			</div>
+		</div>
+		
+		<audio id = "audio" src="Background.mp3"  autoplay> </audio>
+	
+		<script src="script.js"> </script>
+	</body>
+</html>
